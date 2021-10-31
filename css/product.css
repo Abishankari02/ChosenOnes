@@ -1,0 +1,107 @@
+/*
+Template Name:Cart Shop
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************product****************/
+.center_shop{
+ padding-top:100px;
+ padding-bottom:100px;
+ background:#33996621;
+ }
+.product_1 p {
+    display: inline-block;
+    margin-right: 10px;
+}
+.product_1 .form-control {
+    display: inline-block;
+    width: 15%;
+    font-size: 18px;
+    height: 40px;
+	margin-right: 10px;
+	border:none;
+	background: #fff;
+}
+#product{
+ padding-top:40px;
+ padding-bottom:20px;
+ background:#33996617;
+ }
+.product_1{
+ border-top:1px solid #ddd;
+ border-bottom:1px solid #ddd;
+ padding-top:10px;
+ padding-bottom:10px;
+ }
+.product_2{
+margin-top:30px; 
+ }
+.arriv_2m3 .span_1 {
+    color: #FFCC66;
+    display: block;
+    margin-top: 10px;
+}
+.arriv_2m3 .span_2 {
+    color: #ccc;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+.arriv_2m{
+background: #fff;
+padding:20px 15px; 
+ }
+.center_product_1r4r ul li a:hover{
+background: #339966;
+color:#fff;
+border-color:#339966;
+ }
+.center_product_1r4r ul li a{
+ color:#000;
+ border-radius:50%;
+ margin-left:5px;
+ margin-right:5px;
+ padding:8px 18px;
+ }
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+background: #339966;
+color:#fff;
+border-color:#339966;
+ }
+.center_product_1r4r{
+margin-top:30px; 
+ }
+/*********************product_end****************/
+
+@media screen and (max-width : 767px){
+#product{
+ text-align:center;
+ }
+.product_1 .form-control{
+ margin-right:0;
+ width:100%;
+ margin-top:15px;
+ }
+.arriv_2m {
+margin-top:10px; 
+ }
+.center_product_1r4r ul li a{
+ padding:3px 10px;
+ margin-right:0;
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+

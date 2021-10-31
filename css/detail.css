@@ -1,0 +1,136 @@
+/*
+Template Name:Cart Shop
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************detail****************/
+.center_shop{
+ padding-top:100px;
+ padding-bottom:100px;
+ background:#33996621;
+ }
+#detail{
+padding-top:40px;
+padding-bottom:40px;
+ }
+.detail_1ri h5{
+ border:1px solid #339966b0;
+ display:inline-block;
+ padding:5px 20px;
+ border-radius:20px;
+ }
+.detail_1ri h6 span{
+color: #FFCC66;
+margin-right:10px;
+ }
+.detail_1ri .span_2 {
+    color: #ccc;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+.detail_1ri1 h5 .span_2{
+width:40px;
+height:40px;
+line-height:40px;
+border:1px solid #ddd;
+display:inline-block;
+text-align:center;
+border-radius:50%;
+ }
+.detail_1ri1 h5 .span_1{
+margin-right:10px; 
+ }
+.detail_1ri1 h5 .span_3{
+ border-color:#339966b0;
+ }
+.detail_1ri1 .input-group {
+    width: 21%;
+	margin-top:10px;
+}
+.detail_1ri1 .left {
+display:inline-block;
+float:left;
+}
+.detail_1ri1 .button {
+display:block;
+text-align:center;
+}
+.detail_2{
+margin-top:40px; 
+ }
+.detail_2il{
+ border:1px solid #ddd;
+ padding:30px 15px;
+ }
+.detail_2il1{
+ border:1px solid #ddd;
+ padding:30px 15px;
+ border-top:none;
+ }
+.detail_2ir h4 span{
+font-size:16px;
+color:#999;
+margin-left:10px; 
+ }
+.detail_2ir{
+margin-top:20px;
+background:#33996617;
+padding:20px 15px; 
+ }
+.detail_2ir1 .button {
+display:block;
+text-align:center;
+margin-top:20px;
+}
+.detail_3{
+ margin-top:40px;
+ }
+/*********************detail_end****************/
+
+@media screen and (max-width : 767px){
+#detail{
+text-align:center; 
+ }
+.detail_1ri {
+margin-top:15px; 
+ }
+.detail_1ri1 h5 .span_2{
+ width:30px;
+ height:30px;
+ line-height:30px;
+ }
+.detail_1ri1 .input-group{
+width:44%; 
+margin-left:auto;
+margin-right:auto;
+ }
+.detail_2il1 {
+margin-bottom:10px; 
+ }
+.arriv_2m {
+margin-top:10px; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.detail_1ri1 .input-group{
+width:35%;
+ }
+.detail_2il1 h4{
+font-size:20px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.detail_1ri1 .input-group{
+width:26%;
+ }
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+
